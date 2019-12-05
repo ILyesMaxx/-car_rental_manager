@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXDatePicker?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controles.addVoyageurController">
+    <children>
+        <JFXDatePicker fx:id="date" layoutX="100.0" layoutY="266.0" prefHeight="25.0" prefWidth="292.0" promptText="Date Nessence :" AnchorPane.leftAnchor="100.0" AnchorPane.rightAnchor="100.0" />
+        <JFXTextField fx:id="prenom" labelFloat="true" layoutX="127.0" layoutY="188.0" prefHeight="25.0" prefWidth="292.0" promptText="Prenom" AnchorPane.leftAnchor="100.0" AnchorPane.rightAnchor="100.0" />
+        <JFXTextField fx:id="nom" labelFloat="true" layoutX="127.0" layoutY="138.0" prefHeight="25.0" prefWidth="292.0" promptText="Nom" AnchorPane.leftAnchor="100.0" AnchorPane.rightAnchor="100.0" />
+        <JFXTextField fx:id="IdRes" labelFloat="true" layoutX="127.0" layoutY="95.0" prefHeight="25.0" prefWidth="292.0" promptText="Id Reservation" AnchorPane.leftAnchor="100.0" AnchorPane.rightAnchor="100.0" />
+        <JFXTextField fx:id="idV" labelFloat="true" layoutX="127.0" layoutY="53.0" prefHeight="25.0" prefWidth="292.0" promptText="Id Voyageur" AnchorPane.leftAnchor="100.0" AnchorPane.rightAnchor="100.0" />
+        <JFXButton fx:id="creat" buttonType="RAISED" layoutX="242.0" layoutY="355.0" mnemonicParsing="false" onAction="#createV" prefHeight="25.0" prefWidth="117.0" ripplerFill="#9cdd8d" style="-fx-pref-width: 150px; -fx-background-color: #6ce16c; -fx-background-radius: 40px; -fx-pref-height: 50px; -fx-text-fill: white; -fx-border-color: white; -fx-border-radius: 70px; -fx-border-width: 4px;" text="Create" AnchorPane.leftAnchor="220.0" AnchorPane.rightAnchor="250.0" />
+    </children>
+
+</AnchorPane>

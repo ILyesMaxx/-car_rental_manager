@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXDatePicker?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import com.jfoenix.controls.JFXTimePicker?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="533.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controles.AddAvion">
+    <children>
+        <JFXTextField fx:id="id" labelFloat="true" layoutX="100.0" layoutY="19.0" prefHeight="25.0" prefWidth="358.0" promptText="id Trensport" AnchorPane.leftAnchor="100.0" AnchorPane.rightAnchor="140.0" />
+        <JFXTextField fx:id="nbrdes" labelFloat="true" layoutX="100.0" layoutY="196.0" promptText="Nomber des Siege Despo" AnchorPane.leftAnchor="100.0" AnchorPane.rightAnchor="140.0" />
+        <JFXTextField fx:id="nbrttl" labelFloat="true" layoutX="100.0" layoutY="255.0" promptText="Nomber des Siege Totale" AnchorPane.leftAnchor="100.0" AnchorPane.rightAnchor="140.0" />
+        <JFXTextField fx:id="prix" labelFloat="true" layoutX="100.0" layoutY="307.0" promptText="Prix" AnchorPane.leftAnchor="100.0" AnchorPane.rightAnchor="140.0" />
+        <JFXTextField fx:id="nbrw" labelFloat="true" layoutX="100.0" layoutY="363.0" promptText="Cpmpanier" AnchorPane.leftAnchor="100.0" AnchorPane.rightAnchor="140.0" />
+        <JFXDatePicker fx:id="dateA" layoutX="100.0" layoutY="85.0" prefHeight="25.0" prefWidth="381.0" promptText="Date Arrive" AnchorPane.leftAnchor="100.0" AnchorPane.rightAnchor="128.0" />
+        <JFXTimePicker fx:id="timeAr" layoutX="500.0" layoutY="85.0" prefHeight="25.0" prefWidth="70.0" promptText="Heur" AnchorPane.leftAnchor="500.0" AnchorPane.rightAnchor="30.0" />
+        <JFXDatePicker fx:id="dateDe" layoutX="100.0" layoutY="138.0" prefHeight="25.0" prefWidth="381.0" promptText="Date Depart" AnchorPane.leftAnchor="100.0" AnchorPane.rightAnchor="128.0" />
+        <JFXTimePicker fx:id="timeDe" layoutX="500.0" layoutY="138.0" prefHeight="25.0" prefWidth="70.0" promptText="Heur" AnchorPane.leftAnchor="500.0" AnchorPane.rightAnchor="30.0" />
+        <JFXTextField fx:id="voiturC" labelFloat="true" layoutX="100.0" layoutY="422.0" promptText="Type d'appariel" AnchorPane.leftAnchor="100.0" AnchorPane.rightAnchor="140.0" />
+        <JFXButton fx:id="creat" buttonType="RAISED" layoutX="225.0" layoutY="469.0" mnemonicParsing="false" onAction="#creat" ripplerFill="#6ce16c" style="-fx-pref-width: 150px; -fx-background-color: #6ce16c; -fx-background-radius: 40px; -fx-pref-height: 50px; -fx-text-fill: white; -fx-border-color: white; -fx-border-radius: 70px; -fx-border-width: 4px;" text="Create" />
+    </children>
+
+</AnchorPane>
